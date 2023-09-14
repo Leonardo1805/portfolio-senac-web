@@ -11,7 +11,7 @@
     
     <header>  
         <h1>Brasileirão 2023</h1>
-        <span>Serie A</span>
+            <span>Serie A</span>
         <!-- comenta -->
         <a href="#secao-apresentacao" class="botao">Saiba mais</a>
     </header>
@@ -68,6 +68,104 @@
             </li>
         </ul>
     </section>
+
+<section id = "secao-opniao">
+        <h2> Deixe sua opnião sobre o site</h2>
+    <form action="" id="form-opniao">
+        <div class="campo linha">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+        </div>
+        <div>
+            <label for="qtde">Dê sua nota ao site</label>
+            <input type="number" min="1" id="qtde" max="10">
+        </div>    
+        <div class="campo">
+            <label for="time">Selecione seu time</label>
+            <select name="time" id="time">
+                <option value=""></option>
+                <option value="">AMÉRICA-MG</option>
+                <option value="">ATHLETICO PARANAENSE</option>
+                <option value="">ATHLETICO PARANAENSE</option>
+                <option value="">ATLÉTICO-MG</option>
+                <option value="">BAHIA</option>
+                <option value="">BOTAFOGO</option>
+                <option value="">CORINTHIANS</option>
+                <option value="">CORITIBA</option>
+                <option value="">CRUZEIRO</option>
+                <option value="">CUIABÁ</option>
+                <option value="">FLAMENGO</option>
+                <option value="">FLUMINENSE</option>
+                <option value="">FORTALEZA</option>
+                <option value="">GOIÁS</option>
+                <option value="">GRÊMIO</option>
+                <option value="">INTERNACIONAL</option>
+                <option value="">PALMEIRAS</option>
+                <option value="">RED BULL BRAGANTINO</option>
+                <option value="">SANTOS</option>
+                <option value="">SÃO PAULO</option>
+                <option value="">VASCO</option>
+            </select>
+        </div>
+        <div class="campo linha">
+            <label for="layout">Está gostando do site?</label>
+            <div>
+                <input name="layout"    type="radio" id="layout_sim">
+                <label for="layout_sim">im, estou gostando.</label>
+                <input name="layout"    type="radio" id="layout_nao">
+                <label for="layout_nao">Não, há o que melhorar.</label>
+            </div>
+        </div>
+        <div class="linha">
+            <input type="checkbox" id="js">
+            <label for="js">Indicaria o site para alguém?</label>
+        </div>
+        <div class="campo linha">
+            <label for="prazo">Grau de recomendação do site para alguém</label>
+            <input type="range"  id="prazo">
+        </div>
+        <a href="#" class="botao-enviar">Enviar</a>
+    </form>
+    </section>
+
+ <!---<section id = "secao-orcamento">
+        <h2> Simule um orçamento para o seu site</h2>
+    <form action="" id="form-orcamento">
+        <div class="campo linha">
+            <label for="nome">nome</label>
+            <input type="text" id="nome">
+        </div>
+        <div>
+            <label for="qtde">Quantidade de páginas</label>
+            <input type="number" min="1" id="qtde">
+        </div>    
+        <div class="campo">
+            <label for="tipo">tipo</label>
+            <select name="tipo" id="tipo">
+                <option value="">estático</option>
+                <option value="">dinâmico</option>
+            </select>
+        </div>
+        <div class="campo linha">
+            <label for="layout">precisa de layout?</label>
+            <div>
+                <input name="layout"    type="radio" id="layout_sim">
+                <label for="layout_sim">Sim, preciso</label>
+                <input name="layout"    type="radio" id="layout_nao">
+                <label for="layout_nao">Nao, ja tenho</label>
+            </div>
+        </div>
+        <div class="linha">
+            <input type="checkbox" id="js">
+            <label for="js">meu site precisa de javascript</label>
+        </div>
+        <div class="campo linha">
+            <label for="prazo">prazo</label>
+            <input type="range"  id="prazo">
+        </div>
+    </form>
+    
+    </section> -->
 
 </body>
 </html>

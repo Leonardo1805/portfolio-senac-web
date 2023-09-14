@@ -168,3 +168,113 @@ span{
 .card p {
     color: #fff;
 }
+
+#secao-opniao{
+    height: 100vh;
+    padding: 3rem;
+}
+
+#form-opniao{
+    color: black;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    background-color: rgb(226, 224, 221);
+    max-width: 500px;
+    border-radius: .5rem;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    grid-column: 1 / 3;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    background-color: #ADADBC;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"]{
+    accent-color: #ADADBC;
+}
+
+input:focus{
+    border: solid 1px #4628ff;
+
+}
+
+
+.botao-enviar{
+    grid: .5;
+    background-color: rgb(75, 196, 95);
+    color: rgb(241, 238, 238);
+    font-family: var(--font-default);
+    padding: .25rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 1s;/*tempo em que demorar para escurecer quando passo o mouse em cima*/
+}
+
+.botao-enviar:hover{
+    background-color: rgb(25, 158, 43);
+    }
+
+/*#secao-orcamento{
+    height: 100vh;
+    padding: 3rem;
+}
+
+#form-orcamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    background-color: rgb(226, 224, 221);
+    max-width: 500px;
+    border-radius: .5rem;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    grid-column: 1 / 3;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    background-color: #ADADBC;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"]{
+    accent-color: #ADADBC;
+}
+
+input:focus{
+    border: solid 1px #4628ff;
+
+}*/
