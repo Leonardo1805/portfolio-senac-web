@@ -6,6 +6,6 @@ Site de portfólio pessoal. Projeto de disciplina de PW do Centro Universitário
 - [x] Header 
 - [x] Apresentação
 - [x] Projetos
-- [ ] Orçamento
+- [x] Orçamento
 - [ ] Menu
 - [ ] Responsividade
