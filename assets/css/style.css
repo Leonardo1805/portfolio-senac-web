@@ -83,16 +83,9 @@ span{
 
 #secao-apresentacao{
     display: flex;
-    height: 60vh;
+    height: 75vh;
     padding: 1rem .05rem;
     gap: 5rem;
-}
-
-#secao-apresentacao2{
-    display: flex;
-    height: 30vh;
-    padding: 1rem .05rem;
-    gap: rem;
 }
 
 #secao-apresentacao img {
@@ -100,6 +93,8 @@ span{
 }
 
 #secao-apresentacao div{
+    color: black;
+    font-weight: 700;
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -109,7 +104,7 @@ span{
 
 #secao-projetos{
     height: 100vh;
-    background-color: #252739;
+    background-color: rgb(226, 224, 221);
 }
 
 .card{
@@ -140,8 +135,8 @@ span{
 }
 
 .card-image-wrapper img{
-    height: 186px;
-    width: 132px;
+    height: 380px;
+    width: 300px;
 }
 
 .card-content{
@@ -150,7 +145,7 @@ span{
     gap: 1rem;
     align-items: flex-start;
     position: absolute;
-    top: 25%;
+    top:5%;
     left: .5rem;
     opacity: 0;
     transform: translateY(2rem);
@@ -160,13 +155,20 @@ span{
 .card h2 {
     color: #fff;
     font-size: 1.5rem;
+    text-shadow: 4px 2px 20px rgba(0, 0, 0, 1.5);
 }
 .card h3 {
-    color: #4628ff;
+    color: #0d0decb4;
+    font-size: 1.35rem;
+    text-shadow: 4px 2px 20px rgba(0, 0, 0, 1.5);
 }
 
 .card p {
-    color: #fff;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-shadow: 4px 2px 20px rgba(0, 0, 0, 1.5);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #secao-opniao{
