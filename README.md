@@ -10,5 +10,5 @@ Danilo Barbosa
 - [x] Apresentação
 - [x] Projetos
 - [x] Formulário
-- [ ] Menu
+- [x] Menu
 - [ ] Responsividade

@@ -22,6 +22,52 @@ body{
     font-family: var(--font-default);
 }
 
+#menu-icon{
+    color :#fff;
+    text-shadow: #000 2px 2px 2px;
+    position: fixed;
+    z-index: 10;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+#menu{
+    position: fixed;
+    background-color: #828286;
+    height: 100vh;
+    padding: 3rem;
+    z-index: 9;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 1s;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+#menu li{
+    padding: 1rem;
+    border-radius: .5rem;
+    transition: background-color .5s;
+}
+
+#menu li:hover{
+    background-color: #252739;
+}
+
+#menu a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#menu.open {
+    transform: translateX(0);
+}
+
 header{
     display: flex;/*Flex Box*/
     flex-direction: column;/*Deixar os textos em colunas*/
